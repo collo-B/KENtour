@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "id": 3,
+      "name": "Best of Kisumu in 8 Days Tour",
+      "info": "Kisumu is a Kenyan port city on Lake Victoria. It’s known for lakeside viewpoints at Dunga Hill Camp and Hippo Point. The Kisumu Impala Sanctuary shelters herds of impalas and zebras. Its animal orphanage is home to wildlife like cheetahs and baboons. The city’s Kisumu Museum displays artifacts related to the people of the Nyanza Province. Southwest, Ruma National Park has tall cliffs, roan antelope and birdlife.",
+      "image": "https://tylinktravel.com/wp-content/uploads/2020/12/kisumu-city-image-1280x600.jpg",
+      "price": "25,000"
+    },
+    {
+      "id": 4,
+      "name": "Best of Mombasa in 7 Days Tour",
+      "info": "Mombasa is a coastal city in southeastern Kenya along the Indian Ocean. The town is known as the white and blue city in Kenya. It is the country's oldest and second-largest city, with a population of about 1,208,333 people according to the 2019 census.",
+      "image": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2021/05/elephant-tusks-.jpg",
+      "price": "30,000"
+    },
+    {
+      "id": 5,
+      "name": "Best of Nakuru in 10 Days Tour",
+      "info": "Nakuru is the capital city of Nakuru County, Kenya. It is northwest of Nairobi, in the Great Rift Valley. Nearby is Lake Nakuru National Park, home to rhinos, giraffes, lions and leopards. Lake Nakuru is an algae-filled soda lake that attracts thousands of flamingos.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Round_about_in_Nakuru.jpg",
+      "price": "20,000"
+    }
+  ]
+}
