@@ -4,7 +4,7 @@ function Events({events, removeTour}) {
     return ( 
         <section>
         <div className="title">
-          <h2>our Events</h2>
+          <h2>Kenyas no. one  Events Solution</h2>
           <div className="underline"></div>
         </div>
         <div>

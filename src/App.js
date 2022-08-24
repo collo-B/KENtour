@@ -1,11 +1,16 @@
 import Loading from './Loading';
 import Events from './Events';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarHead from './Nav';
-import EventForm from './EventForm';
+// import EventForm from './EventForm';
+// import {
+//   Switch,
+//   Route
+// } from "react-router-dom";
 
 import React,{useState, useEffect} from 'react';
+
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -16,7 +21,7 @@ function App() {
   const fetchEvents = async () => {
     setLoading(true)
     try {
-      const response = await fetch('http://localhost:3000/events')
+      const response = await fetch('https://reactdbjson.herokuapp.com/events')
       const events = await response.json()
       console.log(events);
       setLoading(false)
@@ -58,6 +63,7 @@ function App() {
   return (
     <div>
       <NavbarHead />
+    
       <Events  events={events} removeTour={removeTour} />
     </div>
   );

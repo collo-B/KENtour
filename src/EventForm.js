@@ -26,7 +26,7 @@ function EventForm({handleAddPoem ,deletePoem}) {
     // price
 
   }
-  fetch('http://localhost:3000/events', {
+  fetch('https://reactdbjson.herokuapp.com/events', {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
